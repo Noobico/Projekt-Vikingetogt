@@ -3,6 +3,7 @@
   box-sizing: border-box;
 }
 
+
 @font-face {
   font-family: Norse;
   src: url(NorseFont/Norse-KaWl.otf);
@@ -113,22 +114,36 @@ header {
   padding: 50px;
 }
 
+.information{
+  max-width: 80%;
+  max-height: 1080px;
+}
+
 /* Footer */
-.footer {
+footer {
+  width: 100%;
+  left: 0;
+  bottom: 0;
   background-color: #3586ff;
-  padding: 40px 20px;
+  color: #ffffff;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1000;
+}
+
+.menu_footer {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  background-color: #3586ff;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
-  color: #ffffff;
   position: relative;
-  width: 100%;
-  z-index: 1;
-}
-
-.menu_footer {
   width: 100%;
 }
 
@@ -166,7 +181,7 @@ header {
   position: relative;
   width: 100%;
   height: 30%;
-  margin-top: -100px; /* Adjust to overlap the footer */
+  margin-top: -100px;
   z-index: 2;
 }
 
@@ -176,7 +191,7 @@ header {
   left: 0;
   width: 200%;
   height: 100%;
-  background: url("Wave.svg") repeat-x;
+  background: url("/assets/Wave.svg") repeat-x;
 }
 
 .wave#wave1 {
