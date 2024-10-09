@@ -7,6 +7,10 @@
   src: url(NorseFont/Norse-KaWl.otf);
 }
 
+@font-face {
+  font-family: NorseBold;
+  src: url(NorseFont/NorseBold-2Kge.otf);
+}
 html, body {
   overflow-x: hidden;
   margin: 0;
@@ -56,6 +60,26 @@ header {
   margin-left: 10px;
 }
 
+.navlink {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: NorseBold;
+    font-size: 2rem;
+    padding: 0.5rem 2rem;
+    background-color: #3586ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+  .navlink:hover {
+    background-color: #ff5733;
+}
 /* Main content */
 .main-content {
   flex: 1;
@@ -124,7 +148,7 @@ header {
 }
 
 .waves {
-  position: fixed;
+  position: absolute;
   bottom: 100px;
   width: 100%;
   height: 50px;
