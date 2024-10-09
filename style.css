@@ -2,14 +2,37 @@
     box-sizing: border-box;
   }
   
+  @font-face {
+    font-family: Norse;
+    src: url();
+  }
   .spacer{
     height: 500px
   }
+
   /* Header */
   header {
     height: 10%;
     width: 100%;
     position: absolute;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  /* left side of the header */
+  .head-left{
+    width: 50%;
+    height:100%;
+    display: flex;
+  }
+
+
+
+  /* right side of the header */
+  .head-right{
+    width: 50%;
+    height:100%;
+    display: flex;
   }
   
 
