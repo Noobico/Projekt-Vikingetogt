@@ -117,6 +117,9 @@ header {
 .information{
   max-width: 80%;
   max-height: 1080px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
 
 /* Footer */
