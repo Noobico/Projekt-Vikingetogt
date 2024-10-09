@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+    console.log('Script loaded');
+
     const storeElements = [
         {
             "title": "Shield",
@@ -26,12 +28,22 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
     });
 
-    document.getElementById('storeList').innerHTML = output;
+    const storeList = document.getElementById('storeList');
+    if (storeList) {
+        storeList.innerHTML = output;
+    }
 
     const dropdownIcon = document.querySelector('.mobile-favicon');
     const dropdownMenu = document.querySelector('.dropdown-menu');
 
-    dropdownIcon.addEventListener('click', () => {
-        dropdownMenu.classList.toggle('active');
-    });
+    console.log(dropdownIcon); // Debugging line
+    console.log(dropdownMenu); // Debugging line
+
+    if (dropdownIcon && dropdownMenu) {
+        dropdownIcon.addEventListener('click', () => {
+            dropdownMenu.classList.toggle('active');
+        });
+    } else {
+        console.error('Dropdown icon or menu not found');
+    }
 });
