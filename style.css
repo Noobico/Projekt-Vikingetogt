@@ -4,7 +4,7 @@
   
   @font-face {
     font-family: Norse;
-    src: url();
+    src: url(NorseFont/Norse-KaWl.otf);
   }
   .spacer{
     height: 500px
@@ -13,6 +13,7 @@
   /* Header */
   header {
     height: 10%;
+    max-height: 10%;
     width: 100%;
     position: absolute;
     margin: 0;
@@ -24,6 +25,11 @@
     width: 50%;
     height:100%;
     display: flex;
+  }
+  .temp-logo{
+    height: 100%;
+    aspect-ratio: 1/1;
+    background-color: #3586ff;
   }
 
 
