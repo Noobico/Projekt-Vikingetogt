@@ -4,16 +4,44 @@ document.addEventListener('DOMContentLoaded', () => {
     const storeElements = [
         {
             "title": "Shield",
-            "price": 100,
-            "image": "https://via.placeholder.com/150",
-            "description": "A sturdy shield for protection."
+            "price": 5,
+            "image": "/assets/skjold.svg",
         },
         {
-            "title": "Sword",
-            "price": 200,
-            "image": "https://via.placeholder.com/150",
-            "description": "A sharp sword for battle."
-        }
+            "title": "Small Ring",
+            "price": 1,
+            "image": "/assets/small-ring.svg",
+        },
+        {
+            "title": "Medium Ring",
+            "price": 2,
+            "image": "/assets/medium-ring.svg",
+        },
+        {
+            "title": "Large Ring",
+            "price": 3,
+            "image": "/assets/large-ring.svg",
+        },
+        {
+            "title": "Thor's Hammer",
+            "price": 5,
+            "image": "/assets/thor-hammer.svg",
+        },
+        {
+            "title": "Viking Bracelet",
+            "price": 4,
+            "image": "/assets/viking-bracelet.svg",
+        },
+        {
+            "title": "Viking Ring",
+            "price": 4,
+            "image": "/assets/viking-ring.svg",
+        },
+        {
+            "title": "Yggdrasil Earrings",
+            "price": 4,
+            "image": "/assets/yggdrasil-earrings.svg",
+        },
     ];
 
     let output = '';
