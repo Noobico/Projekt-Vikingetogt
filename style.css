@@ -124,53 +124,27 @@ header {
 
 /* Product Card */
 .product {
-  background-color: #ffffff; /* White background */
-  padding: 20px; /* Padding around the content */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  width: 200px; /* Fixed width for the product card */
-  text-align: center; /* Center the text */
-}
-
-.product h1 {
-  font-size: 1.5em; /* Larger font size for the main heading */
-  color: #333; /* Dark grey color for the text */
-  margin-bottom: 10px; /* Space below the heading */
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  width: 200px;
+  text-align: center;
 }
 
 .product h2 {
-  font-size: 1.2em; /* Slightly smaller font size for subheadings */
-  color: #555; /* Medium grey color for the text */
-  margin-top: 10px; /* Space above the subheadings */
-  margin-bottom: 10px; /* Space below the subheadings */
-}
-
-.product p {
-  font-size: 0.9em; /* Standard font size for paragraphs */
-  color: #666; /* Light grey color for the text */
-  line-height: 1.4; /* Line height for better readability */
-  margin-bottom: 10px; /* Space below paragraphs */
+  font-size: 1.2em; 
+  color: #555;
+  margin-top: 10px; 
+  margin-bottom: 10px;
 }
 
 .product img {
-  max-width: 100%; /* Make images responsive */
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 10px; /* Rounded corners for images */
-  margin-bottom: 10px; /* Space below images */
-}
-
-.product button {
-  background-color: #3586ff; /* Blue background */
-  color: #ffffff; /* White text */
-  padding: 10px 20px; /* Padding around the button */
-  border: none; /* Remove default border */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: background-color 0.3s; /* Smooth transition for background color */
-}
-
-.product button:hover {
-  background-color: #2a6ebf;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  object-fit: contain;
 }
 
 /* Footer */

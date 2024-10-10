@@ -5,42 +5,42 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             "title": "Shield",
             "price": 5,
-            "image": "/assets/skjold.svg",
+            "image": "/shop/shield.svg",
+        },
+        {
+            "title": "Axe",
+            "price": 3,
+            "image": "/shop/axe.png",
         },
         {
             "title": "Small Ring",
             "price": 1,
-            "image": "/assets/small-ring.svg",
+            "image": "/shop/small-ring.png",
         },
         {
             "title": "Medium Ring",
             "price": 2,
-            "image": "/assets/medium-ring.svg",
+            "image": "/shop/medium-ring.png",
         },
         {
             "title": "Large Ring",
             "price": 3,
-            "image": "/assets/large-ring.svg",
+            "image": "/shop/large-ring.png",
         },
         {
-            "title": "Thor's Hammer",
+            "title": "Mjölnir",
             "price": 5,
-            "image": "/assets/thor-hammer.svg",
+            "image": "/shop/mjölnir.png",
         },
         {
             "title": "Viking Bracelet",
             "price": 4,
-            "image": "/assets/viking-bracelet.svg",
-        },
-        {
-            "title": "Viking Ring",
-            "price": 4,
-            "image": "/assets/viking-ring.svg",
+            "image": "/shop/viking-bracelet.png",
         },
         {
             "title": "Yggdrasil Earrings",
             "price": 4,
-            "image": "/assets/yggdrasil-earrings.svg",
+            "image": "/shop/yggdrasil-earrings.png",
         },
     ];
 
@@ -48,10 +48,9 @@ document.addEventListener('DOMContentLoaded', () => {
     storeElements.forEach(product => {
         output += `
         <div class="product">
-            <img src="${product.image}" alt="${product.title}" />
+            <img src="${product.image}" />
             <h2>${product.title}</h2>
-            <p>${product.description}</p>
-            <span>${product.price}</span>
+            <span>${product.price} gold</span>
         </div>
         `;
     });
