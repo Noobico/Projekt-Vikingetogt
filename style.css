@@ -100,7 +100,7 @@ header {
 }
 
 .navlink:hover {
-  background-color: #ff5733;
+  background-color: #64c6ff;
 }
 
 /* Main content */
@@ -180,6 +180,8 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   list-style: none;
+  text-decoration: none;
+  font-family: NorseBold;
 }
 
 .menu__item {
@@ -187,15 +189,14 @@ footer {
 }
 
 .menu__link {
-  color: #ffffff;
+  color: #fff;
   font-size: 1rem;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .menu__link:hover {
-  color: #ff5733;
-  font-weight: bold;
+  color: #64c6ff;
 }
 
 .footer p {
@@ -333,8 +334,19 @@ footer {
 }
 
 .gargan-poster {
-  width: 250px;
+  width: 350px;
   height: auto;
   object-fit: cover;
   border-radius: 10px;
+}
+
+.museum-poster {
+  width: 350px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.buffer{
+  height: 100px;
 }
