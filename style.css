@@ -357,3 +357,10 @@ footer {
     margin-top: -100px; /* Adjust to overlap the footer */
   }
 }
+
+.gargan-poster {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
