@@ -204,6 +204,27 @@ footer {
   font-size: 12px;
 }
 
+.join-us {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px 0;
+  font-family: NorseBold;
+  font-size: 1.2rem;
+  color: #ffffff;
+  background-color: #ff5733;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.join-us:hover {
+  background-color: #e04e2f;
+  transform: scale(1.1);
+}
+
 /* Waves Animation */
 .waves {
   position: relative;
